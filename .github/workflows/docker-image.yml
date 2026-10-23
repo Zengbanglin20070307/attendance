@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
- IMAGE_NAME: ${{ github.repository_owner }}
+  IMAGE_NAME: zengbanglin20070307/attendance
 
 jobs:
   build-and-push:
